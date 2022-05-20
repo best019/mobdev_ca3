@@ -37,7 +37,7 @@ export class ApiService {
     }
 
     getDeath(id) {
-        return this.http.get(`https://8100-best019-mobdevca3-wvel6ajp0tb.ws-eu45.gitpod.io/assets/deaths.json`)
+        return this.http.get(`https://8100-best019-mobdevca3-wvel6ajp0tb.ws-eu45.gitpod.io/assets/deaths.json`);
     }
 
 }
